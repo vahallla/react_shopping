@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  width: 100%;
+}
+.discount {
+  position: absolute;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  top: 1rem;
+  left: 1rem;
+  background-color: goldenrod;
+  border-radius: 1rem;
+  opacity: 0;
+  transition: 0.3s;
+}
+.p_img {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.p_img img {
+  width: 100%;
+}
+.card span {
+  display: block;
+  line-height: 2;
+}
+.detail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: transparent;
+}
+
+.card:hover .discount {
+  opacity: 1;
+}

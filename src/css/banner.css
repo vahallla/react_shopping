@@ -1,0 +1,23 @@
+.banner {
+  border: 1px solid red;
+}
+.banner .__inner {
+  height: 400px;
+}
+.banner .swiper-button-next:after {
+  content: "" !important;
+  width: 20px;
+  height: 20px;
+  border-top: 5px solid tomato;
+  border-right: 5px solid tomato;
+  transform: rotate(45deg);
+  color: tomato;
+}
+.banner .swiper-slide div {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
